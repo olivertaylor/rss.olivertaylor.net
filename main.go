@@ -33,6 +33,7 @@ var (
 		"https://mjtsai.com/blog/feed/",
 		"https://panic.com/blog/feed/",
 		"http://feeds.feedburner.com/marginalrevolution/feed",
+		"https://routley.io/posts/index.xml",
 	}
 
 	// Show up to 60 days of posts
