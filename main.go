@@ -28,12 +28,11 @@ type Post struct {
 
 var (
 	feeds = []string{
-		"https://themargins.substack.com/feed.xml",
-		"https://jvns.ca/atom.xml",
-		"https://joy.recurse.com/feed.atom",
-		"https://danluu.com/atom.xml",
-		"https://blog.veitheller.de/feed.rss",
-		"https://twobithistory.org/feed.xml",
+		"https://daringfireball.net/feeds/main",
+		"https://writings.stephenwolfram.com/feed/",
+		"https://mjtsai.com/blog/feed/",
+		"https://panic.com/blog/feed/",
+		"http://feeds.feedburner.com/marginalrevolution/feed",
 	}
 
 	// Show up to 60 days of posts
