@@ -1,6 +1,8 @@
-# news.routley.io
+# rss.olivertaylor.net
 
-Hello! This repo houses the code that generates my personal RSS feed. It's hosted at [news.routley.io](https://news.routley.io/). The code itself is non-generic and personalised to my use case, but it might serve as interesting inspiration.
+Hello! This repo is a fork of [news.routley.io](https://github.com/jamesroutley/news.routley.io), customized for me.
+
+It houses the code that generates my personal RSS feed. It's hosted at [rss.olivertaylor.net](https://rss.olivertaylor.net). The code itself is non-generic and personalised to my use case, but it might serve as interesting inspiration.
 
 ## How does it work?
 
@@ -18,4 +20,4 @@ The website is hosted by GitHub pages, which serves the files in the [docs](/doc
 
 ### Automation
 
-We use a GitHub [Action](/.github/workflows/build-website.yml) to run the `main.go` script every hour. It commits any changes to `docs/index.html`, which are automatically deployed by GitHub Pages ✨
+We use a GitHub [Action](/.github/workflows/main.yml) to run the `main.go` script every hour. It commits any changes to `docs/index.html`, which are automatically deployed by GitHub Pages ✨
