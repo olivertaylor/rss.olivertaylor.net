@@ -127,31 +127,19 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>James Routley | Feed</title>
+		<title>rss.olivertaylor.net</title>
 		<style>
-			@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
-
-			body {
-				font-family: "Nanum Myeongjo", serif;
-				line-height: 1.7;
-				max-width: 600px;
-				margin: 50px auto 50px;
-				padding: 0 12px 0;
-				height: 100%;
-			}
-
-			li {
-				padding-bottom: 16px;
-			}
+			@import url("http://olivertaylor.net/style.css");
+			li { color: #ccc; margin-bottom: .25rem; }
 		</style>
 	</head>
 	<body>
 		<h1>News</h1>
 
-		<ol>
-			{{ range .Posts }}<li><a href="{{ .Link }}">{{ .Title }}</a> ({{ .Host }})</li>
+		<ul>
+			{{ range .Posts }}<li><a href="{{ .Link }}">{{ .Title }}</a> <span class="host">({{ .Host }})</span></li>
 			{{ end }}
-		</ol>
+		</ul>
 
 		<footer>
 			<p><a href="https://github.com/jamesroutley/news.routley.io">What is this?</a></p>
