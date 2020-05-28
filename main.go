@@ -37,6 +37,8 @@ var (
 		"https://xkcd.com/rss.xml",
 		"https://kk.org/cooltools/feed/",
 		"https://craigmod.com/index.xml",
+		"https://waxy.org/category/links/feed/",
+		"http://feeds.kottke.org/main",
 	}
 
 	// Show up to 60 days of posts
