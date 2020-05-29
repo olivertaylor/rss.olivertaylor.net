@@ -137,7 +137,7 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
 		<style>
 			@import url("https://www.olivertaylor.net/style.css");
 			li { margin-bottom: .5rem; }
-			li span.host { color: #aaa; }
+			li span.host { color: #ccc; margin-left: .5rem; font-style: italic; }
 			a:visited { color: #aaa; }
 		</style>
 	</head>
@@ -145,7 +145,7 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
 		<h1>News</h1>
 
 		<ul>
-			{{ range .Posts }}<li><a href="{{ .Link }}">{{ .Title }}</a> <span class="host">({{ .Host }})</span></li>
+			{{ range .Posts }}<li><a href="{{ .Link }}">{{ .Title }}</a> —  <span class="host">{{ .Host }}</span></li>
 			{{ end }}
 		</ul>
 
