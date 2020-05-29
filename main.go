@@ -19,6 +19,10 @@ type TemplateData struct {
 	Timestamp string
 }
 
+type Feed struct {
+	Title string
+}
+
 type Post struct {
 	Link      string
 	Title     string
@@ -145,7 +149,7 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
 		<h1>News</h1>
 
 		<ul>
-			{{ range .Posts }}<li><a href="{{ .Link }}">{{ .Headline }}</a> —  <span class="host">{{ .Title }}</span></li>
+			{{ range .Posts }}<li><a href="{{ .Link }}">{{ .Headline }}</a>  <span class="host">{{ .Title }}</span></li>
 			{{ end }}
 		</ul>
 
