@@ -19,10 +19,6 @@ type TemplateData struct {
 	Timestamp string
 }
 
-type Feed struct {
-	Title string
-}
-
 type Post struct {
 	Link      string
 	Title     string
@@ -114,7 +110,7 @@ func getPosts(ctx context.Context, feeds []string) []*Post {
 			}
 			posts = append(posts, &Post{
 				Link:      item.Link,
-				Headline:     item.Title,
+				Title:     item.Title,
 				Published: *published,
 				Host:      parsedLink.Host,
 			})
@@ -149,7 +145,7 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
 		<h1>News</h1>
 
 		<ul>
-			{{ range .Posts }}<li><a href="{{ .Link }}">{{ .Headline }}</a>  <span class="host">{{ .Title }}</span></li>
+			{{ range .Posts }}<li><a href="{{ .Link }}">{{ .Title }}</a> —  <span class="host">{{ .Host }}</span></li>
 			{{ end }}
 		</ul>
 
