@@ -40,7 +40,6 @@ var (
 		"https://craigmod.com/index.xml",
 		"https://waxy.org/category/links/feed/",
 		"http://feeds.kottke.org/main",
-		"http://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fkottke.org%2Fquick-links%2F&in_id_or_class=quicklinks-post&url_contains=",
 		"http://radio3.io/users/davewiner/rss.xml",
 	}
 
