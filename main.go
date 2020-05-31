@@ -19,6 +19,10 @@ type TemplateData struct {
 	Timestamp string
 }
 
+type Feed struct {
+	Title	string
+}
+
 type Post struct {
 	Link      string
 	Title     string
@@ -140,8 +144,8 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
 		<style>
 			@import url("https://www.olivertaylor.net/style.css");
 			li { margin-bottom: .5rem; }
-			li a { font-weight: 500; }
-			li p { margin: 0 0 1rem 0 }
+			li a.headline { font-weight: 600; }
+			li p { margin: 0 0 1rem 0; font-weight: 400; }
 			li span.host { color: #ccc; margin-left: .5rem; font-style: italic; }
 			a:visited { color: #aaa; }
 		</style>
@@ -150,7 +154,12 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
 		<h1>News</h1>
 
 		<ul>
-			{{ range .Posts }}<li><a href="{{ .Link }}">{{ .Title }}</a> <span class="host">{{ .Host }}</span><p>{{ .Description }}</p></li>
+			{{ range .Posts }}
+			<li>
+				<a class="headline" href="{{ .Link }}">{{ .Title }} &#8594;</a> <span class="host">{{ .Host }}</span>
+				<div class="description">{{ .Description }}</div>
+				{{range .Feed}}{{ .Title }}{{end}}
+			</li>
 			{{ end }}
 		</ul>
 
