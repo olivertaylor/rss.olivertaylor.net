@@ -37,6 +37,7 @@ var (
 		"https://kk.org/cooltools/feed/",
 		"https://craigmod.com/index.xml",
 		"https://waxy.org/category/links/feed/",
+		"https://joy.recurse.com/feed.atom",
 	}
 
 	// Show up to 60 days of posts
