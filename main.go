@@ -135,11 +135,12 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
 		<title>rss.olivertaylor.net</title>
 		<style>
 			@import url("https://www.olivertaylor.net/style.css");
-			li { margin-bottom: .5rem; }
+			li { margin-bottom: 1rem; }
 			li a.headline { font-weight: 600; }
 			li p { margin: 0 0 1rem 0; font-weight: 400; }
 			li span.host { color: #ccc; margin-left: .5rem; font-style: italic; }
 			a:visited { color: #aaa; }
+			div.description img {max-width: 100%;}
 		</style>
 	</head>
 	<body>
