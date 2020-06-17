@@ -29,6 +29,7 @@ type Post struct {
 
 var (
 	feeds = []string{
+		"http://feeds.feedburner.com/marginalrevolution/feed",
 		"https://writings.stephenwolfram.com/feed/",
 		"https://mjtsai.com/blog/feed/",
 		"https://panic.com/blog/feed/",
