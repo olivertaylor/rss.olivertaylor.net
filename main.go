@@ -29,7 +29,6 @@ type Post struct {
 
 var (
 	feeds = []string{
-		"http://feeds.feedburner.com/marginalrevolution/feed",
 		"https://writings.stephenwolfram.com/feed/",
 		"https://mjtsai.com/blog/feed/",
 		"https://panic.com/blog/feed/",
@@ -38,7 +37,13 @@ var (
 		"https://kk.org/cooltools/feed/",
 		"https://craigmod.com/index.xml",
 		"https://waxy.org/category/links/feed/",
+		"http://feeds.feedburner.com/marginalrevolution/feed",
 		"https://joy.recurse.com/feed.atom",
+		"https://www.economist.com/latest/rss.xml",
+		"https://www.economist.com/briefing/rss.xml",
+		"https://www.economist.com/leaders/rss.xml",
+		"https://www.economist.com/special-report/rss.xml",
+		"https://www.economist.com/the-economist-explains/rss.xml",
 	}
 
 	// Show up to 60 days of posts
