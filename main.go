@@ -46,6 +46,7 @@ var (
 		"https://www.economist.com/the-economist-explains/rss.xml",
 		"https://sachachua.com/blog/category/emacs-news/feed",
 		"https://standardebooks.org/rss/new-releases",
+		"https://protesilaos.com/codelog.xml",
 	}
 
 	// Show up to 60 days of posts
