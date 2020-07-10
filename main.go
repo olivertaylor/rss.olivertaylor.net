@@ -37,16 +37,17 @@ var (
 		"https://kk.org/cooltools/feed/",
 		"https://craigmod.com/index.xml",
 		"https://waxy.org/category/links/feed/",
-		"http://feeds.feedburner.com/marginalrevolution/feed",
+		// "http://feeds.feedburner.com/marginalrevolution/feed",
 		"https://joy.recurse.com/feed.atom",
-		"https://www.economist.com/latest/rss.xml",
-		"https://www.economist.com/briefing/rss.xml",
-		"https://www.economist.com/leaders/rss.xml",
-		"https://www.economist.com/special-report/rss.xml",
-		"https://www.economist.com/the-economist-explains/rss.xml",
+		// "https://www.economist.com/latest/rss.xml",
+		// "https://www.economist.com/briefing/rss.xml",
+		// "https://www.economist.com/leaders/rss.xml",
+		// "https://www.economist.com/special-report/rss.xml",
+		// "https://www.economist.com/the-economist-explains/rss.xml",
 		"https://sachachua.com/blog/category/emacs-news/feed",
 		"https://standardebooks.org/rss/new-releases",
 		"https://protesilaos.com/codelog.xml",
+		"https://idlewords.com/index.xml",
 	}
 
 	// Show up to 60 days of posts
