@@ -49,7 +49,7 @@ var (
 		"https://protesilaos.com/codelog.xml",
 		"https://idlewords.com/index.xml",
 		//"https://daringfireball.net/feeds/main",
-		"https://n-o-d-e.net/rss/rss.xml",
+		//"https://n-o-d-e.net/rss/rss.xml",
 	}
 
 	// Show up to 60 days of posts
