@@ -42,7 +42,6 @@ var (
 		"https://standardebooks.org/rss/new-releases",
 		"https://protesilaos.com/codelog.xml",
 		"https://idlewords.com/index.xml",
-		"https://n-o-d-e.net/rss/rss.xml",
 		"https://oremacs.com/atom.xml",
 		"https://irreal.org/blog/?feed=rss2",
 		"http://endlessparentheses.com/atom.xml"
