@@ -46,6 +46,7 @@ var (
 		"https://irreal.org/blog/?feed=rss2",
 		"https://endlessparentheses.com/atom.xml",
 		"https://200ok.ch/atom.xml",
+		"https://www.raptitude.com/feed/",
 	}
 
 	// Show up to 60 days of posts
