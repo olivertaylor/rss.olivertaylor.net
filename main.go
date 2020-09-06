@@ -38,16 +38,18 @@ var (
 		"https://craigmod.com/index.xml",
 		"https://www.economist.com/latest/rss.xml",
 		"https://www.economist.com/the-economist-explains/rss.xml",
-		"https://sachachua.com/blog/category/emacs-news/feed",
 		"https://standardebooks.org/rss/new-releases",
-		"https://protesilaos.com/codelog.xml",
 		"https://idlewords.com/index.xml",
+		"https://www.raptitude.com/feed/",
+		// emacs feeds
 		"https://oremacs.com/atom.xml",
 		"https://irreal.org/blog/?feed=rss2",
 		"https://endlessparentheses.com/atom.xml",
 		"https://200ok.ch/atom.xml",
-		"https://www.raptitude.com/feed/",
 		"https://with-emacs.com/rss.xml",
+		"https://nullprogram.com/tags/emacs/feed/",
+		"https://sachachua.com/blog/category/emacs-news/feed",
+		"https://protesilaos.com/codelog.xml",
 	}
 
 	// Show up to 60 days of posts
