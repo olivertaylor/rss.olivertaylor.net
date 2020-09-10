@@ -41,6 +41,7 @@ var (
 		"https://standardebooks.org/rss/new-releases",
 		"https://idlewords.com/index.xml",
 		"https://www.raptitude.com/feed/",
+		//"http://www.aaronsw.com/2002/feeds/pgessays.rss"
 		// emacs feeds
 		"https://oremacs.com/atom.xml",
 		"https://irreal.org/blog/?feed=rss2",
